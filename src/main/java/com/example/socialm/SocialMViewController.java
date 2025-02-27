@@ -418,7 +418,7 @@ public class SocialMViewController {
 
       String[] key = usersComboBox.getValue().split("--"); /// To split username
       String username = key[1];/// this because the string count starts for 0 and  this string into an array of two parts (0(name) and 1(username))
-        User Selected_Profile_User = null; /// by-default its null always
+      
       for(User user: users){
           if(user.getUsername().equals(username)){ /// to find if there is any user exist which is selected
               Selected_Profile_User = user;
